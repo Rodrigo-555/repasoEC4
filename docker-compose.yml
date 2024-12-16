@@ -8,7 +8,7 @@ services:
       MYSQL_PASSWORD: admin12345
     ports:
       - "3306:3306"
-  restserver:
+  repasoec4:
     build: .
     ports:
       - "8080:8080"
